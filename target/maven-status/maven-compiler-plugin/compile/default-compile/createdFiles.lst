@@ -1,0 +1,10 @@
+com\plakhotnyuk\chat\bean\Message.class
+com\plakhotnyuk\chat\servlet\LoginUsersServlet.class
+com\plakhotnyuk\Main.class
+com\plakhotnyuk\chat\servlet\AddUsersServlet.class
+com\plakhotnyuk\chat\bean\Users.class
+com\plakhotnyuk\chat\dao\UsersDAO.class
+com\plakhotnyuk\chat\servlet\MessageServlet.class
+com\plakhotnyuk\chat\dao\MessageDAO.class
+com\plakhotnyuk\chat\dao\MessageDAOImplements.class
+com\plakhotnyuk\chat\dao\UsersDAOImplements.class

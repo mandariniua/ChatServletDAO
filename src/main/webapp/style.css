@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #acfff4;
+}
+p {
+	color: white;
+}
+div {
+	background-color: #00bfa8;
+	border: 1px solid white;
+	border-radius: 25px;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	float: fixed;
+}
+input {
+	background-color: white;
+	border: 0px dashed white;
+	border-radius: 10px;
+	width: 250px;
+	height: 30px;
+}
+
+
+.add {
+	background-color:#acfff4; 
+	height: 50px;
+	width: 250px;
+	border: 0px;
+	border-radius: 10px;	
+	cursor: pointer;
+}
+a {
+	color: white;
+}
+a:HOVER {
+	color: white;
+}
+
+

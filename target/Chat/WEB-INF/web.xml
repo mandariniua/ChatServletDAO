@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddUsersServlet</servlet-name>
+  	<display-name>AddUsersServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.chat.servlet.AddUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUsersServlet</servlet-name>
+  	<display-name>LoginUsersServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.chat.servlet.LoginUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MessageServlet</servlet-name>
+  	<display-name>MessageServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.chat.servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddUsersServlet</servlet-name>
+  	<url-pattern>/AddUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUsersServlet</servlet-name>
+  	<url-pattern>/LoginUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MessageServlet</servlet-name>
+  	<url-pattern>/MessageServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
